@@ -22,8 +22,8 @@ nav{
     text-align: left;
 }
 
-/* banner styles */
-.banner-container{
+/* hero styles */
+.hero-container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -34,20 +34,20 @@ nav{
     margin:0 150px;
     border-radius: 10px;  
 }
-.banner-title{
+.hero-title{
     color: #0E0E0E80;
     font-weight: 500;
     margin: 16 auto;
     font-size: 20px;
 }
-.banner-sub-title{
+.hero-sub-title{
     color: #0E0E0E;
     font-size: 50px;
     font-weight: 400;
     text-align: left;
     width: 475px;
 }
-.banner-btn{
+.hero-btn{
     background-color: #006A50;
     color: #FFFFFF;
     margin: 0px 36px;
@@ -239,7 +239,7 @@ nav{
     padding: 10px;
     border: none;
 }
-.donate-amount-bg{
+.donate-background{
     background: #FFFFFF;
     margin: 30px;
     padding: 30px 50px;
