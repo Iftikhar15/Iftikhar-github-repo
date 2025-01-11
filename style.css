@@ -9,18 +9,6 @@
 .main-background{
     background-color: #F5F5F5;
 }
-nav{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: auto;
-    padding: 20px 130px 20px 125px;
-    background-color: #F5F5F5;
-}
-.nav-title{
-    color:  #0E0E0E;
-    text-align: left;
-}
 
 /* hero styles */
 .hero-container{
@@ -37,10 +25,12 @@ nav{
 .hero-title{
     color: #0E0E0E80;
     font-weight: 500;
-    margin: 16 auto;
     font-size: 20px;
+    margin: 0px;
 }
 .hero-sub-title{
+    margin-top: 0px;
+    margin-bottom: 0px;
     color: #0E0E0E;
     font-size: 50px;
     font-weight: 400;
@@ -50,7 +40,6 @@ nav{
 .hero-btn{
     background-color: #006A50;
     color: #FFFFFF;
-    margin: 0px 36px;
     font-size: 15px;
     font-weight: 600;
     border-radius: 5px;
